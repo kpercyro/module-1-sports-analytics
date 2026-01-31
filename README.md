@@ -1,5 +1,7 @@
 # Module 1 - Sports Analytics
 
+To run this code, clone this repo on VS Code or download this repo as a .zip package. Ensure all Excel CSV files have also been downloaded.
+
 ### [Data and Discovery OneDrive](https://uofwaterloo-my.sharepoint.com/:f:/r/personal/twliew_uwaterloo_ca/Documents/4B/MSE%20433/Module%201%20-%20Sports%20Analytics?csf=1&web=1&e=FcIJRn)
 
 ### Wheelchair rugby data
@@ -31,4 +33,5 @@
 ###### Output: Player's predicted scores (player_scores)
 
 ### Part 2: Optimization
-##### Add more here
+- Binary integer programming model to pick the lineup that maximizes the total lineup score adjusted for fatigue and strategy
+- Intakes data from the Streamlit Coach Dashboard as parameters for the Gurobi BIP model and outputs the optimization results back to the dashboard for the coach to view
