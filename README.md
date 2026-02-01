@@ -2,6 +2,10 @@
 
 To run this code, clone this repo on VS Code or download this repo as a .zip package. Ensure all Excel CSV files have also been downloaded.
 
+### Running the Streamlit Dashboard Interface
+
+To run the Streamlit dashboard, open this project repo in VS Code then in the VS Code terminal, type 'python run app.py' and click enter. This should navigate you to the Streamlit dashboard on your browser tab. 
+
 ### Wheelchair rugby data
 ##### Player data
 - player identifier
