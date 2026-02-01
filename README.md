@@ -2,10 +2,6 @@
 
 To run this code, clone this repo on VS Code or download this repo as a .zip package. Ensure all Excel CSV files have also been downloaded.
 
-### Running the Streamlit Dashboard Interface
-
-To run the Streamlit dashboard, open this project repo in VS Code then in the VS Code terminal, type `python run app.py` and click enter. This should navigate you to the Streamlit dashboard on your browser tab. 
-
 ### Wheelchair rugby data
 ##### Player data
 - player identifier
@@ -41,6 +37,7 @@ To run the Streamlit dashboard, open this project repo in VS Code then in the VS
 ### Part 2: Optimization
 - Binary integer programming model to pick the lineup that maximizes the total lineup score adjusted for fatigue and strategy
 - Intakes data from the Streamlit Coach Dashboard as parameters for the Gurobi BIP model and outputs the optimization results back to the dashboard for the coach to view
+- The Gurobi model is automatically executed when the user clicks the `Start Game` or `Optimize` buttons on the Streamlit dashboard.
 
 ### Part 3: Streamlit dashboard
-##### put how to run and use instructions here
+To run the Streamlit dashboard, open this project repo in VS Code then in the VS Code terminal, type `python run app.py` and click enter. This should navigate you to the Streamlit dashboard on your browser tab.
